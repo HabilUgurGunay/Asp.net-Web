@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="IleriWebProje2.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Admin Anasayfa</title>
+    <link rel="stylesheet" type="text/css" href="stil11.css"/>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 300px;
+            left: 0px;
+            top: 0px;
+            width: 79px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                        <div id="sayfa">
+	
+	<div id="ust1">
+		<div class="ust_sol1"><a href="İndex.aspx" class="kayitsayfa">Günay İletişim</a></div>
+		
+			
+	</div>
+	
+	<div id="ust3">
+		
+		<%--<div class="urun"><a href="AdminKategori.aspx" class="kayitsayfa">Kullanıcı İşlemleri</a></div>
+		<div class="urun"><a href="Bilgisayar.aspx"class="kayitsayfa">Kategori İşlemleri</a></div>--%>
+<div class="menu">
+    <ul>
+        <li><a href="#" >Kullanıcılar</a>
+            <ul>
+                <li><a href="kullaniciKontrol.aspx">Kullanıcı Kontrol</a></li>
+                <li><a href="kullaniciRol.aspx">Rol Yöneticisi</a></li>
+            </ul>
+        </li>
+        <li><a href="#" >Ürünler</a>
+            <ul>
+                <li><a href="adminUrunEkle.aspx">Ürün Ekle</a></li>
+            </ul>
+        </li>
+        <li><a href="adminKategori.aspx">Kategoriler</a></li>
+        <li class="deneme"><a href="İndex.aspx">Çıkış</a></li>
+    </ul>
+</div>
+		
+		
+	</div>
+	<div class="ürünsayfasi">
+	
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+	</div>
+	<div class="temizle"></div>
+	<div id="copyright">
+		<p>Bu Sitenin Hakları Saklıdır</p>
+	</div>
+</div>
+        </div>
+    </form>
+</body>
+</html>

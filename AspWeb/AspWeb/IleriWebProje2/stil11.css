@@ -1,0 +1,550 @@
+@import url('stil11.css');
+#sayfa{
+	background-color:#D9D9D9;
+	width:1200px;
+	height:1800px;
+	margin-top:0px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:0px;
+	
+	
+}
+
+.menu {
+	width: 100%;
+	height: 48px;
+	background-color:gray;
+	margin: 0 auto;
+	border-bottom: 4px solid #002b3f;
+}
+
+.menu ul li {
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+
+.menu ul li a {
+	color: black;
+	font: 18px Arial;
+	font-weight:bold;
+	text-decoration: none;
+	display: block;
+	padding: 14px 15px;
+}
+
+.menu ul li a:hover {
+	color: #00b3e8;
+}
+
+.menu ul li ul {
+	display: none;
+	right: 0;
+	position: absolute;
+	top: 48px;
+}
+
+.menu ul li ul a {
+	background-color: gray;
+	color: white;
+	display: block;
+	font: bold 12px Arial, Helvetica, Sans-serif;
+	margin: 0px;
+	width: 100%;
+	height: 18px;
+	text-decoration: none;
+	line-height: 12px;
+}
+
+.menu ul li:hover ul {
+	display: block;
+}
+
+.temizle{clear:both;}
+
+#ust{
+	background-color:black;
+	width:auto;
+	height:50px;	
+}
+
+.ust_sag{
+	float:right;
+	margin-left:20px;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	font-weight:bold;
+	font-size:14px;
+	margin-right:20px;
+}
+
+.resimm1{width:20px;}
+
+.ust_sol{
+	float:left;
+	color:white;
+	line-height:50px;
+	text-indent:20px;
+	font-size:12px;
+	font-family:"Berlin Sans FB";
+
+}
+
+#ust1{
+	background-color:white;
+	width:auto;
+	height:100px;
+	
+	
+	
+	
+	
+}
+
+.ust_sol1{
+	float:left;
+	margin-right:220px;
+	margin-left:25px;
+	font-size:60px;
+	line-height:100px;
+	font-family: "Gill Sans MT Condensed";
+	
+	
+	
+	
+}
+
+
+.ust_sag1{
+	float:right;
+	margin-left:10px;
+	font-size:20px;
+	line-height:100px;
+	margin-right:25px;
+	font-style:italic;
+	
+	
+	
+}
+
+
+#bir{
+	line-height:100px;
+	
+	
+}
+
+.urun{
+	float:left;
+	line-height:30px;
+	margin-left:18px;
+	font-family:"Franklin Gothic Medium";
+	font-size:13px;
+	text-decoration:none;
+
+}
+#ust3 {
+	background-color: #C5C2C2;
+	width: auto;
+	height: 30px;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url(img/arka1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+}
+
+#copyright{
+	margin-top:-22px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	background-color:black;
+	height:34px;
+	line-height:30px;
+	text-align:center;
+	color:White;
+	font-size:12px;
+	width:1180px;
+	margin-left:10px;
+	
+}
+
+#giriş{
+	text-align:center;	
+	
+	
+	
+}
+
+.Form{
+	color:red;
+	width:100px;
+	
+	
+	
+}
+
+.buton{
+	width:auto;
+	height:30px;
+	font-size:20px;
+	margin-left:10px;
+	
+	
+	
+}
+
+.butonn{
+	width:auto;
+	height:30px;
+	font-size:20px;
+	
+	
+	
+}
+
+pre{
+	font-size:20px;
+
+	
+}
+
+.kayittt{
+	font-size:16px;
+	margin-left:10px;
+
+	
+	
+	
+	
+}
+
+.kayitsayfa{
+		text-decoration:none;
+		color:black;
+	
+	
+	
+}
+
+.ürünsayfasi{
+	border:solid 3px black;
+	min-height:1570px;
+	height:auto;
+	margin:10px;
+	margin-top:15px;
+	background-color:white;
+	
+}
+
+.ürün1{
+	height:130px;
+	padding:5px;
+	float:left;
+	margin-left:10px;
+	margin-right:5px;
+	margin-bottom:10px;
+	margin-top:10px;
+	border:solid 1px ;
+	
+	
+	
+}
+.ürün{
+border:solid 2px;
+width:150px;
+height:250px;
+float:left;
+padding-left:20px;
+padding-right:20px;
+margin-left:20px;
+margin-bottom:10px;
+text-align:center;
+line-height:-20px;
+margin-top:10px;
+
+}
+
+.ürün2{
+	height:130px;
+	width:140px;
+	padding:5px;
+	float:left;
+	margin-left:3px;
+	margin-right:5px;
+	margin-bottom:10px;
+	margin-top:10px;
+	border:solid 1px ;
+	
+	
+	
+	
+}
+
+.sosyal{
+	height:10px;
+	
+	
+}
+
+#girisvekayit{
+	min-height:1570px;
+	height:auto;
+	margin:10px;
+	
+	
+}
+
+#kayit{
+	text-align:left;	
+	
+}
+
+.buton1{
+	background-color:#B6F1F0;
+	border-radius:10px;
+	border:none;
+	
+}
+
+#Arama{
+	float:right;
+	position:relative;
+	margin-top:-80px;
+	top:42px;
+	
+}
+
+#Aramaa{
+	float:right;
+	position:relative;
+	top:6px;
+	left:203px;
+	background-color:none;
+	
+}
+
+#aramabuton{
+	width:210px;
+	
+	
+	
+}
+
+#input{
+	background:none;
+	border:none;
+	outline:0px;
+}
+
+.resimm2{
+	width:33px;
+	
+}
+
+#CreateUserWizard1{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:20px 10px;
+}
+
+.kayitbutton {
+	border-radius: 20px;
+	background-color: darkgray;
+	width: 200px;
+	height: 30px;
+	font-family:'Book Antiqua';
+	font-weight:bold;
+	font-size: 18px;
+}
+
+.KayitText {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px 10px;
+}
+
+.KayitButton1 {
+	background-color:midnightblue; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	border-radius:15px;
+}
+
+.kayibutonusag{
+	margin-left: 110px;
+}
+
+.deneme{
+	margin-left:700px;
+}
+
+.eskifiyat{
+	text-decoration:line-through;
+	font-size:14px;
+}
+
+.detayfiyat{
+	display:block;
+	font-size:15px;
+}
+
+
+.detays {
+	width: 70px;
+	float: right;
+	margin: 0px 5px;
+	border:solid 10px;
+
+}
+
+	.detays span {
+		font-size: 11px;
+		color: #c83b00;
+	}
+
+	.detays input#sepeteEkle {
+		color: #fff;
+		padding: 4px 9px;
+		font-size: 12px;
+		width: 70px;
+		cursor: pointer;
+		border: none;
+		margin-top: 9px;
+		background: #84c11c; /* Old browsers */
+		background: -moz-linear-gradient(top, #84c11c 0%, #66b200 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#84c11c), color-stop(100%,#66b200)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #84c11c 0%,#66b200 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #84c11c 0%,#66b200 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #84c11c 0%,#66b200 100%); /* IE10+ */
+		background: linear-gradient(top, #84c11c 0%,#66b200 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84c11c', endColorstr='#66b200',GradientType=0 ); /* IE6-9 */
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	}
+
+#dSol {
+	width: 280px;
+	float: left;
+}
+
+	#dSol hgroup h1 {
+		padding: 10px 10px 0 10px;
+		font-size: 20px;
+		color: #2d2d2d;
+		margin: 10px 15px 0px 15px;
+	}
+
+	#dSol .aciklama {
+		color: #76b013;
+		font-size: 11px;
+		padding: 5px;
+		text-transform: uppercase;
+		margin: 0 8px;
+	}
+
+	#dSol span {
+		font-size: 12px;
+		color: #353434;
+		width: 170px;
+		float: left;
+		padding: 5px;
+		margin: 10px 10px 0 10px;
+	}
+
+		#dSol span h3 {
+			color: #c83b00;
+			float: right;
+			font-size: 22px;
+			margin-top: -6px;
+		}
+
+		#dSol span p {
+			font-size: 12px;
+			color: #353434;
+			float: right;
+			text-decoration: line-through;
+		}
+
+#dSag {
+	width: 250px;
+	float: right;
+	margin-right:600px;
+	padding: 1px;
+}
+
+	#dSag a figure img {
+		width: 250px;
+		float: left;
+	}
+	#asd{
+		border:solid 2px;
+		font-size:20px;
+	}
+	.yazi{
+		font-size:50px;
+	}
+#sepetana {
+	height:auto;
+	min-height:200px;
+}
+#sepeticerik{
+	border:solid 2px;
+	margin-bottom:5px;
+}
+
+.sepetsatinal {
+	border-radius: 20px;
+	background-color: darkgray;
+	width: 200px;
+	height: 30px;
+	font-family: 'Book Antiqua';
+	font-weight: bold;
+	font-size: 18px;
+	float:right;
+	margin-bottom:30px;
+}
+
+#sepetresim{
+	height:300px;
+	width:220px;
+	margin:10px;
+	float:left;
+}
+
+#sepeturunbilgi{
+	width:920px;
+	height:300px;
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+
+.sepetresimm {
+	height: 300px;
+	width: 220px;
+	margin: 10px;
+}
+#sepetkaydırma{
+	margin-bottom:50px;
+}
+
+
+
+
+

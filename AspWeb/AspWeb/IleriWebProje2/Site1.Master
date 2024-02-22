@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IleriWebProje2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Anasayfa</title>
+	<link rel="stylesheet" type="text/css" href="stil11.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+	
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="sayfa">
+	<div id="ust">
+		<div class="ust_sol"> Ücretsiz Kargo İçin 50₺ Alışveriş Gerekir</div>
+		<div class="ust_sag">Bizi Arayın : (+90) 507 933 7871 </div>
+		<div class="ust_sag">Yardım Merkezi</div>
+		<div class="ust_sag">İletişim</div>
+		<div class="ust_sag">Hakkımızda</div>
+	</div>
+	
+	<div id="ust1">
+		<div class="ust_sol1"><a href="İndex.aspx" class="kayitsayfa">Günay İletişim</a></div>
+		<div class="ust_sag1"><a href="Sepet.aspx" class="kayitsayfa"><img src="img/sepet.png" class="resimm1" />Sepet</a></div>
+		<div class="ust_sag1"><a href="Favoriler.aspx" class="kayitsayfa">		  <img src="img/favori.png" class="resimm1" />Favoriler</a></div>
+		<div id="Kayitt" class="ust_sag1">
+			<a href="Kayit.aspx" runat="server" id="Kayittt" class="kayitsayfa">
+				<img src="img/kayit.png" class="resimm1" id="Kayit" />Kayıt</a></div>
+		<div id="Giriss" class="ust_sag1"><a href="Giris.aspx" runat="server" id="Girisss" class="kayitsayfa"><img src="img/kisi.png" class="resimm2" id="giris" />Giriş</a></div>
+		<div id="Giriss2" class="ust_sag1"><a href="Giris.aspx" runat="server" id="A1" class="kayitsayfa"><img src="img/kisi.png" class="resimm2" id="giris2" />Çıkış
+		</a></div>
+			
+	</div>
+	
+<div id="ust3">
+
+	<asp:ListView ID="ListView1" runat="server">
+		<ItemTemplate> 
+			<div class="urun"><a href="Kategori.aspx?kategoriID=<%# Eval("kat_id") %>&kategoriAD=<%# Eval("kat_ad") %>" class="kayitsayfa"><%# Eval("kat_ad") %></a></div>
+		</ItemTemplate>
+	</asp:ListView>
+		
+</div>
+
+	<div class="ürünsayfasi">
+	
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+	</div>
+	<div class="temizle"></div>
+	<div id="copyright">
+		<p>Bu Sitenin Hakları Saklıdır</p>
+	</div>
+</div>
+        </div>
+    </form>
+</body>
+</html>
